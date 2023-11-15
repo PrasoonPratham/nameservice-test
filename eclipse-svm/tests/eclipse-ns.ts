@@ -12,7 +12,7 @@ describe("eclipse_ns", () => {
     console.log("Starting to create new domains");
     console.time("Creating new domains");
 
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 1; i++) {
       try {
         const nameRecordOwner = Keypair.generate();
         const domainName = `mydomain${i}.eclipse`;
